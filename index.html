@@ -1,53 +1,72 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Udpnat : UDP穿越NAT,UDP打洞,UDP Hole Punching" />
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
 
-    <title>Udpnat</title>
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Udpnat by tewuapple</title>
   </head>
 
   <body>
+    <a id="forkme_banner" href="https://github.com/tewuapple/UDPNAT">View on GitHub</a>
+    <div class="shell">
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/tewuapple/UDPNAT">View on GitHub</a>
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Udpnat</h1>
+            <h2>UDP穿越NAT,UDP打洞,UDP Hole Punching</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
 
-          <h1 id="project_title">Udpnat</h1>
-          <h2 id="project_tagline">UDP穿越NAT,UDP打洞,UDP Hole Punching</h2>
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/tewuapple/UDPNAT/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/tewuapple/UDPNAT/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/tewuapple/UDPNAT/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/tewuapple/UDPNAT/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
         <h1>UDPNAT</h1>
 
 <p>UDP穿越NAT,UDP打洞,UDP Hole Punching</p>
 
 <p>本程序分为客户端和服务端，服务端需要放在一台公用的外网服务器上，客户端运行前需要修改ip.ini文件的外网服务器信息。</p>
       </section>
-    </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Udpnat maintained by <a href="https://github.com/tewuapple">tewuapple</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/tewuapple">tewuapple</a> can be found on <a href="https://github.com/tewuapple/UDPNAT">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
       </footer>
+
     </div>
 
     
-
   </body>
 </html>
